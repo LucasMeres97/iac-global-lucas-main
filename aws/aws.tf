@@ -63,7 +63,7 @@ resource "aws_instance" "web_instance_1" {
               yum install -y httpd
               systemctl start httpd
               systemctl enable httpd
-              echo '<h1>Página HTML própria do Bruno Vinícius Wolff</h1>' | tee /var/www/html/index.html
+              echo '<h1>Chupa curintia</h1>' | tee /var/www/html/index.html
               EOF
 
   tags = {
